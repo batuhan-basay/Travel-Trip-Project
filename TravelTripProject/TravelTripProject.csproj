@@ -127,6 +127,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -135,6 +138,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Sınıflar\Admin.cs" />
     <Compile Include="Models\Sınıflar\AdressBlog.cs" />
+    <Compile Include="Models\Sınıflar\BlogComment.cs" />
     <Compile Include="Models\Sınıflar\Home.cs" />
     <Compile Include="Models\Sınıflar\Blog.cs" />
     <Compile Include="Models\Sınıflar\Context.cs" />
@@ -144,6 +148,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Blog\about.html" />
+    <Content Include="Blog\contact.html" />
+    <Content Include="Blog\css\bootstrap.css" />
+    <Content Include="Blog\css\style.css" />
+    <Content Include="Blog\images\avatar.png" />
+    <Content Include="Blog\images\icon3.png" />
+    <Content Include="Blog\images\kiev.jpg" />
+    <Content Include="Blog\images\logo.jpg" />
+    <Content Include="Blog\images\man.jpg" />
+    <Content Include="Blog\images\more.png" />
+    <Content Include="Blog\images\Paris.jpg" />
+    <Content Include="Blog\images\post1.jpg" />
+    <Content Include="Blog\images\post2.jpg" />
+    <Content Include="Blog\images\post3.jpg" />
+    <Content Include="Blog\images\search.png" />
+    <Content Include="Blog\index.html" />
+    <Content Include="Blog\js\easing.js" />
+    <Content Include="Blog\js\jquery.min.js" />
+    <Content Include="Blog\js\move-top.js" />
+    <Content Include="Blog\single.html" />
+    <Content Include="Blog\w3layouts-License.txt" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -187,10 +212,12 @@
     <Content Include="web\images\pic7.jpg" />
     <Content Include="web\images\pic8.jpg" />
     <Content Include="web\images\pic9.jpg" />
+    <Content Include="web\images\travel walpaper.png" />
     <Content Include="web\index.html" />
     <Content Include="web\js\jquery.min.js" />
     <Content Include="web\js\responsiveslides.min.js" />
     <Content Include="web\w3layouts-License.txt" />
+    <Content Include="libman.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -219,6 +246,18 @@
     <Content Include="Views\Shared\_TestLayout.cshtml" />
     <Content Include="Views\Default\Index.cshtml" />
     <Content Include="Views\Default\About.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\Blog\BlogDetail.cshtml" />
+    <Content Include="Views\Default\Partial1.cshtml" />
+    <Content Include="Views\Default\Partial2.cshtml" />
+    <Content Include="Views\Default\Partial3.cshtml" />
+    <Content Include="Views\Default\Partial4.cshtml" />
+    <Content Include="Views\Default\Partial5.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\NewBlog.cshtml" />
+    <Content Include="Views\Admin\BlogList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
