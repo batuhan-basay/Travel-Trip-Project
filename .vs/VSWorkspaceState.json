@@ -3,9 +3,10 @@
     "",
     "\\TravelTripProject",
     "\\TravelTripProject\\Views",
+    "\\TravelTripProject\\Views\\Admin",
     "\\TravelTripProject\\Views\\Blog",
     "\\TravelTripProject\\Views\\Default"
   ],
-  "SelectedNode": "\\TravelTripProject\\Views\\Default\\Index.cshtml",
+  "SelectedNode": "\\TravelTripProject\\Views\\Admin\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

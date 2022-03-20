@@ -53,16 +53,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 @foreach (var y in Model.Deger2)
                 {
 
-
-                <ul class="comment-list">
-                    <li>
-                        <img src="~/Blog/images/avatar.png" class="img-responsive" alt="">
-                        <div class="desc">
-                            <p> @y.KullaniciAdi: @y.Yorum</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
-                </ul>
+                    <ul class="comment-list">
+                        <li>
+                            <img src="~/Blog/images/avatar.png" class="img-responsive" alt="">
+                            <div class="desc">
+                                <p> @y.KullaniciAdi: @y.Yorum</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </li>
+                    </ul>
                 }
                 <div class="content-form">
                     <h3>Leave a comment</h3>
