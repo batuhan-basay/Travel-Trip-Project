@@ -12,6 +12,7 @@ namespace TravelTripProject.Controllers
     {
         // GET: Admin
         Context c = new Context();
+        [Authorize]
         public ActionResult Index()
         {
             var degerler = c.Blogs.ToList();
@@ -57,6 +58,32 @@ namespace TravelTripProject.Controllers
             return RedirectToAction("Index");
 
         }
+        public ActionResult CommentList()
+        {
+            var comments = c.Comments.ToList();
+            return View(comments);
+        }
+        public ActionResult CommentDelete(int id)
+        {
+            var b = c.Comments.Find(id);
+            c.Comments.Remove(b);
+            c.SaveChanges();
+            return RedirectToAction("CommentList");
+        }
+        public ActionResult YorumGetir(int id)
+        {
+            var yr = c.Comments.Find(id);
+            return View("YorumGetir", yr);
+        }
+        public ActionResult CommentUpdate(Comments y)
+        {
+            var yrm = c.Comments.Find(y.Id);
+            yrm.KullaniciAdi= y.KullaniciAdi;
+            yrm.Mail = y.Mail;
+            yrm.Yorum = y.Yorum;
+            c.SaveChanges();
+            return RedirectToAction("CommentList");
 
+        }
     }
 }
