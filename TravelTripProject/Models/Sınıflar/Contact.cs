@@ -13,6 +13,7 @@ namespace TravelTripProject.Models.Sınıflar
         public string AdSoyad { get; set; }
         public string Mail { get; set; }
         public string Konu { get; set; }        
-        public string Mesaj { get; set; }        
+        public string Mesaj { get; set; }
+      
     }
 }

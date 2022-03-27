@@ -40,29 +40,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col-md-8 single-main">
                 @foreach (var x in Model.Deger1)
                 {
-                <div class="single-grid">
+                <div><div class="single-grid">
                     <img src="@x.BlogImage" alt="" style="margin-bottom:20px" />
                     <a href="~/Blog/BlogDetail/@x.Id"> @x.Baslik</a>
                     <p>@x.Aciklama.Substring(0, 150)...</p>
                     <p><a href="~/Blog/BlogDetail/@x.Id"><span class="read">Read More</span></a></p>
                     <br />
-                </div>
+                </div></div>
                 }
             </div>
 
             <div class="col-md-4 side-content">
                 <div class="recent">
                     <h3>LATEST BLOGS</h3>
-                    @foreach (var y in Model.Deger3)
-                    {
-
-
-                        <ul>
+                    <ul>
+                        @foreach (var y in Model.Deger3)
+                        {
                             <li><a href="~/Blog/BlogDetail/@y.Id">@y.Baslik</a></li>
-
-                        </ul>
-                    }
-                </div>
+                        }
+                    </ul>
+                    </div>
                 <div class="comments">
                     <h3>RECENT COMMENTS</h3>
                     <ul>

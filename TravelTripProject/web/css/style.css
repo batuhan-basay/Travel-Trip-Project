@@ -1,10 +1,3 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
-
 
 /* reset */
 
@@ -247,11 +240,12 @@ body {
 }
 
 .header {
-	background: url(../images/head_bg.jpg);
+	background:url(../images/head_bg.jpg)
 }
 
 .header-bottom {
-	background: url(../images/head_bot.gif);
+	background: url(../images/head_bot.png);
+
 }
 
 .wrap {
@@ -265,10 +259,6 @@ body {
 	width:140px;
 }
 
-	.logo h1 {
-		color: white;
-		font-size: 40px;
-	}
 
 .con-right {
 	float: right;
@@ -287,7 +277,7 @@ body {
 
 	.grid1-l-desc p {
 		font-size: 14px;
-		color: rgb(241, 177, 199);
+		color: #FF7800;
 		vertical-align: top;
 		padding: 10px;
 	}
@@ -309,7 +299,6 @@ body {
 }
 
 	#nav ul {
-		background: url(../images/head_bot.gif);
 		border: 1px solid #291c1b;
 		border-radius: 0 5px 5px 5px;
 		border-width: 0 1px 1px;
@@ -342,17 +331,17 @@ body {
 	}
 
 		#nav li a {
-			color: #FFFFFF;
+			color: black;
 			display: block;
-			font-size: 16px;
-			padding: 7px 54px;
+			font-size: 25px;
+			padding: 10px 54px;
 			text-decoration: none;
 		}
 
 		#nav li:hover > a {
-			background: #291c1b;
+			background: #FBAD83;
 			border-radius: 5px 5px 5px 5px;
-			color: #FFFFFF;
+			color: black;
 		}
 
 			#nav li:hover > a.hsubs {
@@ -419,7 +408,7 @@ h2 {
 	font-size: 40px;
 	line-height: 29px;
 	font-family: "Century Gothic", Helvetica, sans-serif;
-	color: #a2365a;
+	color: #FF7800;
 	padding: 30px 0;
 }
 
@@ -439,7 +428,7 @@ h2 {
 
 	.con-top h3 {
 		font-size: 30px;
-		color: #a2365a;
+		color: #FF7800;
 		font-family: "Century Gothic", Helvetica, sans-serif;
 		margin-bottom: 15px;
 	}
@@ -502,21 +491,29 @@ span.doller {
 
 .read {
 	padding: 7px 10px 7px;
-	color: white;
+	color: black;
 	font-size: 12px;
 	cursor: pointer;
-	background: #a2365a url(../images/but.png);
+	background: #EFD1A9;
 	margin-bottom: 20px;
-	border: 1px solid #a2365a;
+	border: 1px solid #efd1a9;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-	border-radius: 4px;
+	border-radius: 8px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	-o-border-radius: 4px;
 }
 
 	.read:hover {
-		background: rgb(155, 45, 82);
+		background: #305049;
+		color: white;
+		margin-bottom: 20px;
+		border: 3px solid #efd1a9;
+		text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+		border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		-o-border-radius: 8px;
 	}
 
 .box1 {
@@ -538,14 +535,15 @@ span.doller {
 	.padding1 h4,
 	.desti-middle h4,
 	.desti-right h4 {
-		color: #a2365a;
+		color: #305049;
 		font-family: "Century Gothic", Helvetica, sans-serif;
 		margin-bottom: 15px;
 		font-size: 25px;
 	}
 
 .list .list-bg {
-	background: rgb(252, 247, 248);
+	background: #EFD1A9;,
+
 }
 
 .list li {
@@ -553,6 +551,7 @@ span.doller {
 	margin-bottom: 1px;
 	padding: 5px 0px 0px 14px;
 	font-size: 13px;
+	color:black;
 }
 
 .list span {
@@ -567,14 +566,14 @@ span.doller {
 }
 
 	.list a:hover {
-		color: #a2365a;
+		color: #305049;
 		font-weight: bold;
 	}
 
 .link1 {
 	font-size: 12px;
 	line-height: 18px;
-	color: #a2365a;
+	color: #305049;
 	font-weight: bold;
 	background: url(../images/link1-bg.gif) right 8px no-repeat;
 	padding-right: 7px;
@@ -629,17 +628,45 @@ span.doller {
 .about h3,
 .contact-top h3 {
 	font-size: 30px;
-	color: #a2365a;
+	color: #FF7800;
 	font-family: "Century Gothic", Helvetica, sans-serif;
 	padding: 20px 0;
 }
 
 .about img {
 	margin-bottom: 20px;
+	border: 1px solid #305049;
+	border-radius: 50%;
+	width: 300px;
+	height: auto;
+	margin-left: 350px;
 }
 
-.about p,
-.contact-top p {
+@media(max-width:740px) {
+	.about img {
+		margin-bottom: 20px;
+		border: 1px solid #305049;
+		border-radius: 50%;
+		width: 300px;
+		height: auto;
+		margin-left: 150px;
+	}
+
+}
+
+@media(max-width:900px) {
+	.about img {
+		margin-bottom: 20px;
+		border: 1px solid #305049;
+		border-radius: 50%;
+		width: 300px;
+		height: auto;
+		margin-left: 50px;
+	}
+}
+
+
+.about p, .contact-top p {
 	color: #555;
 	font-size: 13px;
 	line-height: 1.8em;

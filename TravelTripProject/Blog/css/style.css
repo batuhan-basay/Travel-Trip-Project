@@ -27,65 +27,7 @@ ul,label{
 	padding:0;
 }
 /*----start-container---*/
-.logo{
-float:left;
-margin-right:2em;
-}
-.top-menu{
-float:left;
-width:40%;
-margin-top:3.5em;
-}
-.search {
-width: 55%;
-position:relative;
-}
-.search form {
-border: 1px solid #dbdbdb;
-background:#dbdbdb;
-}
-.search form input[type="text"] {
-padding: 5px 6px;
-font-weight: 400;
-font-size: 1em;
-color: #fff;
-border: none;
-outline: none;
-font-family: 'Oswald', sans-serif;
-width: 87%;
-background:#dbdbdb;
-}
-.search form input[type="submit"] {
-background: url('../images/search.png')no-repeat 0px 0px;
-width: 20px;
-height: 20px;
-border: none;
-cursor: pointer;
-outline: none;
-position: absolute;
-top:23%;
-}
-.top-menu ul {
-margin-top:1em;
-}
-.top-menu ul li {
-display: inline-block;
-}
-.top-menu ul li a {
-margin:1em 1.7em 1em 0em;
-display: block;
-color: #4a5054;
-font-weight: 400;
-font-size: 0.9em;
-text-decoration: none;
-transition: 0.5s all;
--webkit-transition: 0.5s all;
--moz-transition: 0.5s all;
--o-transition: 0.5s all;
-}
-.top-menu ul li a:hover,.top-menu ul li.active a{
-color:#00aeff;
-}
+
 /*----*/
 .content,.about-content,.contact-content,.single{
 border-top:1px solid #d2d2d2;
@@ -98,29 +40,7 @@ width:60%;
 .content-grids {
 margin-top: 4em;
 }
-.post-info{
-background:#fff;
-padding:2em;
-}
-.post-info h4{
-color:#afafaf;
-font-family: 'Lato', sans-serif;
-font-size:0.8em;
-margin-bottom:1em;
-}
-.post-info h4 a{
-font-size:1.7em;
-color:#00aeff;
-margin-right:0.7em;
-display:inline-block;
-text-decoration:none;
-font-family: 'Oswald', sans-serif;	
-font-weight:400;
-text-transform:uppercase;
-}
-.post-info h4 a:hover{
-color: #4a5054;
-}
+
 .post-info p{
 font-family: 'Lato', sans-serif;
 color:#9a9da0;
@@ -218,20 +138,7 @@ font-family: 'Lato', sans-serif;
 .recent li a:hover,.comments ul li a:hover,.archives ul li a:hover,.categories ul li a:hover{
 color:#00aeff;
 }
-/*----*/
-.footer{
-padding:3em 0;
-}
-.footer p{
-color:#989898;
-font-size:1em;
-}
-.footer p a{
-color:#00aeff;
-}
-.footer p a:hover{
-color:#989898;
-}
+
 /*--about--*/
 .about-content,.contact-content,.single{
 padding:2em 0;
@@ -294,39 +201,39 @@ padding:5px 0;
 }
 /*----*/
 .contact-info h2 {
-color: #00aeff;
-font-size: 2em;
-margin-bottom: 0.5em;
+	color: rgb(255, 120, 0);
+	font-size: 2em;
+	margin-bottom: 0.5em;
 }
 .contact-info p {
-color: #7C7C7C;
-font-family: 'Lato', sans-serif;
-font-size: 0.95em;
-line-height: 1.8em;
-font-weight: 400;
-margin-bottom: 1em;
+	color: #3E5D57;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.95em;
+	line-height: 1.8em;
+	font-weight: 400;
+	margin-bottom: 1em;
 }
 .contact-details form input[type="text"], .contact-details textarea {
-width: 47%;
-margin-right: 4%;
-padding: 12px;
-border: 1px solid #E2E0ED;
-font-size: 1em;
-margin-bottom: 2em;
-color: #C2C1CB;
-background: #fff;
-outline: none;
-font-weight: 400;
-font-family: 'Lato', sans-serif;
-transition: 0.5s all ease;
--webkit-transition: 0.5s all ease;
--moz-transition: 0.5s all ease;
--o-transition: 0.5s all ease;
--ms-transition: 0.5s all ease;
+	width: 47%;
+	margin-right: 4%;
+	padding: 12px;
+	border: 1px solid #3E5D57;
+	font-size: 1em;
+	margin-bottom: 2em;
+	color: #C2C1CB;
+	background: #fff;
+	outline: none;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
 }
-.contact-details form input[type="text"]:hover, .contact-details textarea:hover{
-border: 1px solid #00aeff;
-}
+	.contact-details form input[type="text"]:hover, .contact-details textarea:hover {
+		border: 1px solid #FF7800;
+	}
 .contact-details textarea {
 resize: none;
 height: 200px;
@@ -369,25 +276,25 @@ margin-top: 2em;
 padding:0;
 }
 .contact-details form input[type="submit"] {
-font-weight: 400;
-color:#00aeff;
-outline: none;
-border: 1px solid #00aeff;
-font-size: 1em;
-padding: 0.6em 3em;
-background:transparent;
-font-family: 'Source Sans Pro', sans-serif;
-transition: 0.5s all;
--webkit-transition: 0.5s all;
--moz-transition: 0.5s all;
--o-transition: 0.5s all;
--ms-transition: 0.5s all;
+	font-weight: 400;
+	color: #FF7800;
+	outline: none;
+	border: 1px solid #FF7800;
+	font-size: 1em;
+	padding: 0.6em 3em;
+	background: transparent;
+	font-family: 'Source Sans Pro', sans-serif;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
 }
-.contact-details form input[type="submit"]:hover{
-border: 1px solid #00aeff;
-background:#00aeff;
-color:#fff;
-}
+	.contact-details form input[type="submit"]:hover {
+		border: 1px solid #FF7800;
+		background: #405F59;
+		color: #fff;
+	}
 /*----*/
 .single-grid p {
 font-family: 'Lato', sans-serif;
