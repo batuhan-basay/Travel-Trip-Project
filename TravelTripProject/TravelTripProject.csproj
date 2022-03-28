@@ -132,7 +132,6 @@
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -180,10 +179,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="weblogin\weblogin\css\style.css" />
-    <Content Include="weblogin\weblogin\images\b4.jpg" />
-    <Content Include="weblogin\weblogin\index.html" />
-    <Content Include="weblogin\weblogin\w3layouts-License.txt" />
     <Content Include="web\about.html" />
     <Content Include="web\contact.html" />
     <Content Include="web\css\slider.css" />
@@ -260,6 +255,7 @@
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\NewBlog.cshtml" />
     <Content Include="Views\Admin\BlogGetir.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Blog\YorumYap.cshtml" />
     <Content Include="Views\Admin\CommentList.cshtml" />
     <Content Include="Views\Admin\YorumGetir.cshtml" />
@@ -269,6 +265,8 @@
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\Contact.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
+=======
+>>>>>>> parent of 99cdb36 (final)
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
